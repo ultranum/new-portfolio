@@ -1,0 +1,13 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.wrap {
+    white-space: nowrap;
+}
+
+nav {
+    background-color: white;
+    margin-right: 770px;
+}

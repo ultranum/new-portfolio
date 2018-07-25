@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Minecraft Fishing</title>
+  <link rel="stylesheet" type="text/css" href="fishstyles.css">
+</head>
+
+<body>
+  <nav></nav>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $('nav').load('nav.html')
+  </script>
+  <h1>Minecraft Fishing</h1>
+
+  <!--  Instructions -->
+  <p>Click the picture to catch a fish. In theory there is a 85% chance of catching a fish, a 10% chance of catching junk and
+    a 5% chance of catching treasure.</p>
+  <ul>
+    <li>Fish:
+      <span id="fish">0</span>
+    </li>
+    <li>Salmon:
+      <span id='fish2'>0</span>
+    </li>
+    <li>Clownfish:
+      <span id='fish3'>0</span>
+    </li>
+    <li>Pufferfish:
+      <span id='fish4'>0</span>
+    </li>
+    <li>Junk:
+      <span id="junk">0</span>
+    </li>
+    <li>Treasure:
+      <span id="treasure">0</span>
+    </li>
+    <li>Total Caught:
+      <span id='total'>0</span>
+    </li>
+  </ul>
+  <p class='clear'>
+    <button id='plus10'>+10</button>
+  </p>
+  <p class='clear'>
+    <button id='hundredtreasure'>100 treasure</button>
+  </p>
+  <p class='clear'>
+    <button id='million'>1 mil</button>
+  </p>
+  <!-- Image & Results  -->
+  <button id='button'>
+    <img id="mainImg" src="images/mcFishing.jpg" style="width: 800px; height: 300px;">
+  </button>
+  <p id="results"></p>
+
+  <!--  LOAD JAVASCRIPT -->
+  <script src="fish.js"></script>
+
+</body>
+
+</html>

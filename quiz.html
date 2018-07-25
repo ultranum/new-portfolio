@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="quizstyles.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <nav></nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $('nav').load('nav.html')
+    </script>
+
+    <h2>What is 1+1?</h2>
+    <section class="first">
+        <input type="radio" name="first" value="1"> 2
+        <br>
+        <input type="radio" name="first" value="2"> 4
+        <br>
+        <input type="radio" name="first" value="3"> 6
+        <br>
+        <input type="radio" name="first" value="4"> 0
+    </section>
+    <h2>What sport can be played with a bat?</h2>
+    <section class="second">
+        <input type="radio" name="second" value="12"> Soccer
+        <br>
+        <input type="radio" name="second" value="22"> Baseball
+        <br>
+        <input type="radio" name="second" value="32"> Football
+        <br>
+        <input type="radio" name="second" value="42"> Golf
+    </section>
+    <h2>Complete the phrase: "Its raining cats and ___"</h2>
+    <section class="third">
+        <input type="radio" name="third" value="13"> Cats
+        <br>
+        <input type="radio" name="third" value="23"> Animal
+        <br>
+        <input type="radio" name="third" value="33"> Dogs
+        <br>
+        <input type="radio" name="third" value="43"> ddddddddddddddddddddddddddddddddd
+    </section>
+    <h2>The answer is D</h2>
+    <section class="fourth">
+        <input type="radio" name="fourth" value="14"> A
+        <br>
+        <input type="radio" name="fourth" value="24"> B
+        <br>
+        <input type="radio" name="fourth" value="34"> C
+        <br>
+        <input type="radio" name="fourth" value="44"> D
+    </section>
+    <p>
+        <button id="markQuiz">Mark Quiz</button>
+    </p>
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>
