@@ -50,13 +50,13 @@ class player {
 	contact() {
 		for (let i = 0; i < balls.length; i++) {
 			if (circleIntersect(this, balls[i])) {
-				balls[i].x = width / 2
-				balls[i].y = height / 2
+				balls[i].x = random(0, width)
+				balls[i].y = random(0, height)
 				balls[i].r = random(10, 30)
 				balls[i].dirx = random([-1, 1])
 				balls[i].diry = random([-1, 1])
-				balls[i].speedx = random(5)
-				balls[i].speedy = random(5)
+				balls[i].speedx = random(2, 5)
+				balls[i].speedy = random(2, 5)
 			}
 		}
 	}

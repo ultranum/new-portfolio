@@ -1,8 +1,8 @@
 class Ball {
-    constructor(x, y, speed, ease) {
+    constructor(x, y, speed, ease, r) {
         this.x = x
         this.y = y
-        this.r = 5
+        this.r = r
         this.speed = speed
         this.ease = ease
     }

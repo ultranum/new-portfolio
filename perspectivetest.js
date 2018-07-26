@@ -7,11 +7,11 @@ function setup() {
     y = []
     farx = []
     farthestx = []
-    speed = 3
-    for (let i = 0; i < 200; i++) {
-        x.push(random(-9000, 9000))
-        farx.push(random(-6000, 6000))
-        farthestx.push(random(-3000, 3000))
+    speed = 2
+    for (let i = 0; i < 300; i++) {
+        x.push(random(-2000 * 7, 2000 * 7))
+        farx.push(random(-2000 * 3, 2000 * 3))
+        farthestx.push(random(-2000, 2000))
         y.push(random(0, height))
     }
 }

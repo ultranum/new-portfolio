@@ -10,7 +10,7 @@ let total = 0
 document.getElementById('button').addEventListener("click", catchFish)
 document.getElementById('plus10').addEventListener("click", plus10)
 document.getElementById('hundredtreasure').addEventListener('click', hundredtreasure)
-document.getElementById('million').addEventListener('click', million)
+document.getElementById('thousand').addEventListener('click', thousand)
 
 function catchFish() {
     let randNum = Math.random()
@@ -68,8 +68,8 @@ function hundredtreasure() {
         catchFish()
 }
 
-function million() {
-    for (let n = 0; n < 1000000; n++) {
+function thousand() {
+    for (let n = 0; n < 1000; n++) {
         catchFish()
     }
 }
